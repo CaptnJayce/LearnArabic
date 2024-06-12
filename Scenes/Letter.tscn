@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://oia7ybpuytdd"]
+
+[ext_resource type="Texture2D" uid="uid://b80wob2yagv3p" path="res://Assets/background1green.png" id="1_tjwdx"]
+[ext_resource type="Texture2D" uid="uid://dmeil2uj1bofg" path="res://Assets/alif-removebg-preview.png" id="2_ognj5"]
+[ext_resource type="Script" path="res://Scenes/TrueLetter.gd" id="3_2ah0g"]
+
+[node name="Letter" type="Node2D"]
+
+[node name="Background1Green" type="Sprite2D" parent="."]
+position = Vector2(578.5, 323.5)
+scale = Vector2(1.79844, 1.78056)
+texture = ExtResource("1_tjwdx")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(935, 98, 937, 365, 1083, 364, 1077, 99)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 936.0
+offset_top = 96.0
+offset_right = 1085.0
+offset_bottom = 364.0
+texture = ExtResource("2_ognj5")
+script = ExtResource("3_2ah0g")
+
+[node name="Highlight" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = -5.0
+offset_top = 5.0
+offset_right = 146.0
+offset_bottom = 266.0

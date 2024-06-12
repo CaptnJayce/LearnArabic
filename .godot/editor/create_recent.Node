@@ -1,0 +1,14 @@
+RigidBody2D
+Button
+Node2D
+Area2D
+CollisionShape2D
+Sprite2D
+Polygon2D
+TextureRect
+AnimatedSprite2D
+Control
+Label
+HBoxContainer
+VBoxContainer
+Camera2D
