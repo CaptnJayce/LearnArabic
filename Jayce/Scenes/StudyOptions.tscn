@@ -46,7 +46,17 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_e8gj1")
 
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 738.325
+offset_top = 41.73
+offset_right = 947.325
+offset_bottom = 72.73
+scale = Vector2(2.185, 2.185)
+text = "Delete Save (Testing Only)"
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
 offset_left = 745.125
 offset_top = 157.785
 offset_right = 1179.13
@@ -126,6 +136,7 @@ layout_mode = 2
 texture_normal = SubResource("AtlasTexture_fhcw4")
 texture_hover = SubResource("AtlasTexture_ka3mi")
 
+[connection signal="pressed" from="Button" to="VBoxContainer" method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/LearnContainer/Learn" to="VBoxContainer" method="_on_learn_pressed"]
 [connection signal="pressed" from="VBoxContainer/ReviewContainer/Review" to="VBoxContainer" method="_on_review_pressed"]
 [connection signal="pressed" from="VBoxContainer/TestContainer/Test" to="VBoxContainer" method="_on_test_pressed"]
