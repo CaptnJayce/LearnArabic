@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://b56v2s623yedx"]
+[gd_scene format=3 uid="uid://ogpipdvndrg4"]
 
-[node name="Control" type="Control"]
+[node name="Home" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
