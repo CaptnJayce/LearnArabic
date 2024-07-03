@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1720028609
 ::res://Fares/::1720028542
 icon.svg::CompressedTexture2D::636259393435589243::1720028535::1720028542::1::::<><>::
@@ -43,6 +44,48 @@ Global.gd::GDScript::-1::1720028509::0::1::::<>Node<>::
 ::res://Jayce/Sprites/::1720028525
 AGL_buttons.png::CompressedTexture2D::5956442545172751146::1720028509::1720028525::1::::<><>::
 AGL_default_background.png::CompressedTexture2D::280061700492674543::1720028509::1720028525::1::::<><>::
+=======
+::res://::1720028217
+::res://Autoload/::1720027353
+Global.gd::GDScript::-1::1720027353::0::1::::<>Node<>::
+::res://Fares' Assets/::1720028184
+alif-removebg-preview.png::CompressedTexture2D::8010292514897277872::1720027353::1720028053::1::::<><>::
+Baa.png::CompressedTexture2D::3419037916089959827::1720027353::1720028053::1::::<><>::
+background1blue.png::CompressedTexture2D::7435523026692129246::1720027353::1720028053::1::::<><>::
+background1green.png::CompressedTexture2D::4755622837878975499::1720027353::1720028053::1::::<><>::
+Btn.tres::Theme::8765178755434543972::1720028184::0::1::::<><>::uid://c6up6xo3e387t::::res://Fares' Assets/GUI.png
+GUI.png::CompressedTexture2D::6990950420691942391::1720027353::1720028053::1::::<><>::
+image-removebg-preview.png::CompressedTexture2D::5155404626752598906::1720027353::1720028053::1::::<><>::
+islamic-abstract-background-pattern-design_114335-88.png::CompressedTexture2D::4830157076847856991::1720027353::1720028053::1::::<><>::
+::res://Fares' Scenes/::1720028053
+Alif.gd::GDScript::-1::1720027353::0::1::::<>Node2D<>::
+Alif.tscn::PackedScene::1875022719532002643::1720028053::0::1::::<><>::res://Fares' Scenes/Alif.gd<>uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
+game.tscn::PackedScene::6931068428251869146::1720028053::0::1::::<><>::res://Fares' Scenes/main.gd<>uid://ca208mpn50omh::::res://Fares' Assets/islamic-abstract-background-pattern-design_114335-88.png
+Letter.tscn::PackedScene::999217241184319573::1720028053::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png<>res://Fares' Scenes/TrueLetter.gd
+Letters.tscn::PackedScene::5669456167660468654::1720028053::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>res://Fares' Scenes/TrueLetter.gd<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
+main.gd::GDScript::-1::1720027353::0::1::::<>Node2D<>::
+mainMenu.tscn::PackedScene::507674330026557135::1720028053::0::1::::<><>::res://Menus/Main Menu/mainMenu.gd<>uid://dd628ipveyrfq::::res://Fares' Assets/background1blue.png
+TrueLetter.gd::GDScript::-1::1720027353::0::1::::<>TextureRect<>::
+::res://Games/::1720028223
+::res://Games/Scripts/::1720027645
+LRTP.gd::GDScript::-1::1720027353::0::1::::<>Node2D<>::
+StudyOptions.gd::GDScript::-1::1720027353::0::1::::<>VBoxContainer<>::
+::res://Games/Sprites/::1720027580
+AGL_buttons.png::CompressedTexture2D::5956442545172751146::1720027353::1720027580::1::::<><>::
+AGL_default_background.png::CompressedTexture2D::280061700492674543::1720027353::1720027580::1::::<><>::
+::res://Menus/::1720028196
+::res://Menus/Home/::1720027356
+Home.tscn::PackedScene::995955912155867637::1720027356::0::1::::<><>::
+::res://Menus/LRTP/::1720028195
+Learn.tscn::PackedScene::5525274870104679383::1720027580::0::1::::<><>::res://Games/Scripts/LRTP.gd
+Practice.tscn::PackedScene::8267795897678814619::1720027580::0::1::::<><>::res://Games/Scripts/LRTP.gd
+Review.tscn::PackedScene::8765585163867714507::1720027580::0::1::::<><>::res://Games/Scripts/LRTP.gd
+StudyOptions.tscn::PackedScene::525868338424225338::1720028239::0::1::::<><>::res://Games/Scripts/StudyOptions.gd<>uid://cq4l0dw5rshi5::::res://Games/Sprites/AGL_buttons.png
+Test.tscn::PackedScene::2142491829662422082::1720027580::0::1::::<><>::res://Games/Scripts/LRTP.gd
+::res://Menus/LRTP/Scripts/::0
+::res://Menus/Main Menu/::1720028020
+mainMenu.gd::GDScript::-1::1720027353::0::1::::<>Control<>::
+>>>>>>> Stashed changes
 ::res://Other 1/::1720028210
 ::res://Other 2/::1720028212
 ::res://Other 3/::1720028214

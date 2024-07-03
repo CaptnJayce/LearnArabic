@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw5d53p8g5t3x"]
+
+[ext_resource type="Script" path="res://Menus/LRTP/Scripts/LRTP.gd" id="1_5vrbp"]
+
+[node name="Review" type="Node2D"]
+script = ExtResource("1_5vrbp")
+unlock = "stage3"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1920, 1080)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1.44392e-06, 0.703138, 0.771655, 0.596078)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+scale = Vector2(5, 5)
+text = "Review"
+
+[node name="Complete" type="Button" parent="."]
+offset_left = 709.0
+offset_top = 451.0
+offset_right = 855.0
+offset_bottom = 482.0
+scale = Vector2(2.68, 3.08)
+text = "Cascade Onwards"
+
+[connection signal="pressed" from="Complete" to="." method="_on_complete_pressed"]
