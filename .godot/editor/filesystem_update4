@@ -1,10 +1,1 @@
-<<<<<<< Updated upstream
-res://Jayce/Scenes/StudyOptions.tscn
-=======
-res://Menus/LRTPOptions/StudyOptions.tscn
-res://Fares' Assets/Btn.tres
 res://Menus/LRTP/StudyOptions.tscn
-res://Menus/LRTP/Scripts/StudyOptions.gd
-res://Autoload/Global.gd
-res://Menus/LRTP/Scripts/LRTP.gd
->>>>>>> Stashed changes
