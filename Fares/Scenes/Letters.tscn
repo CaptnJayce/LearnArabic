@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cm1ld5wwsiy2y"]
 
-[ext_resource type="Texture2D" uid="uid://ddnkfb5ops0wj" path="res://Assets/background1green.png" id="1_rqisp"]
-[ext_resource type="Script" path="res://Scenes/TrueLetter.gd" id="2_4c0kj"]
-[ext_resource type="Texture2D" uid="uid://dmeil2uj1bofg" path="res://Assets/alif-removebg-preview.png" id="2_48ru1"]
+[ext_resource type="Texture2D" uid="uid://b80wob2yagv3p" path="res://Fares/Assets/background1green.png" id="1_rqisp"]
+[ext_resource type="Script" path="res://Fares/Scenes/TrueLetter.gd" id="2_4c0kj"]
+[ext_resource type="Texture2D" uid="uid://dmeil2uj1bofg" path="res://Fares/Assets/alif-removebg-preview.png" id="2_48ru1"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_sdms5"]
 

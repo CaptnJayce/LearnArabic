@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="WeCanArabic"
-run/main_scene="res://Scenes/game.tscn"
+run/main_scene="res://Fares/Scenes/game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Fares/icon.svg"

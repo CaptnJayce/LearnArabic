@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfpk04x5op42y"
-path="res://.godot/imported/image-removebg-preview.png-fc246733b2127347faec66219fc91134.ctex"
+uid="uid://b80wob2yagv3p"
+path="res://.godot/imported/background1green.png-88d699cad1ff5f05f9f1b785b01d9ac3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/image-removebg-preview.png"
-dest_files=["res://.godot/imported/image-removebg-preview.png-fc246733b2127347faec66219fc91134.ctex"]
+source_file="res://Fares/Assets/background1green.png"
+dest_files=["res://.godot/imported/background1green.png-88d699cad1ff5f05f9f1b785b01d9ac3.ctex"]
 
 [params]
 

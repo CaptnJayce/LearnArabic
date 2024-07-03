@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c50pxjesk8vio"]
 
-[ext_resource type="Script" path="res://Scenes/main.gd" id="1_b118m"]
-[ext_resource type="Texture2D" uid="uid://ca208mpn50omh" path="res://Assets/islamic-abstract-background-pattern-design_114335-88.png" id="1_wq1gt"]
+[ext_resource type="Script" path="res://Fares/Scenes/main.gd" id="1_b118m"]
+[ext_resource type="Texture2D" uid="uid://ca208mpn50omh" path="res://Fares/Assets/islamic-abstract-background-pattern-design_114335-88.png" id="1_wq1gt"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_b118m")

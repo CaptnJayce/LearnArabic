@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boyhb4r1cwlih"
-path="res://.godot/imported/Baa.png-aad519a7c078724a842cd805cbcdf659.ctex"
+path="res://.godot/imported/Baa.png-c022afb7a3e4bbac7c92131ce20cad69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Baa.png"
-dest_files=["res://.godot/imported/Baa.png-aad519a7c078724a842cd805cbcdf659.ctex"]
+source_file="res://Fares/Assets/Baa.png"
+dest_files=["res://.godot/imported/Baa.png-c022afb7a3e4bbac7c92131ce20cad69.ctex"]
 
 [params]
 

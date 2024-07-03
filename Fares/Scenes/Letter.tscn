@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://oia7ybpuytdd"]
 
-[ext_resource type="Texture2D" uid="uid://b80wob2yagv3p" path="res://Assets/background1green.png" id="1_tjwdx"]
-[ext_resource type="Texture2D" uid="uid://dmeil2uj1bofg" path="res://Assets/alif-removebg-preview.png" id="2_ognj5"]
-[ext_resource type="Script" path="res://Scenes/TrueLetter.gd" id="3_2ah0g"]
+[ext_resource type="Texture2D" uid="uid://b80wob2yagv3p" path="res://Fares/Assets/background1green.png" id="1_tjwdx"]
+[ext_resource type="Texture2D" uid="uid://dmeil2uj1bofg" path="res://Fares/Assets/alif-removebg-preview.png" id="2_ognj5"]
+[ext_resource type="Script" path="res://Fares/Scenes/TrueLetter.gd" id="3_2ah0g"]
 
 [node name="Letter" type="Node2D"]
 
