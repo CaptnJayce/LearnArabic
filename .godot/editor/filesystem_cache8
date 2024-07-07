@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720029177
+::res://::1720357780
 ::res://Autoload/::1720029114
 Global.gd::GDScript::-1::1720029114::0::1::::<>Node<>::
 ::res://Fares' Assets/::1720029114
@@ -27,11 +27,11 @@ AGL_default_background.png::CompressedTexture2D::280061700492674543::1720029114:
 ::res://Menus/::1720029114
 ::res://Menus/Home/::1720029114
 Home.tscn::PackedScene::995955912155867637::1720029114::0::1::::<><>::
-::res://Menus/LRTP/::1720029114
+::res://Menus/LRTP/::1720029189
 Learn.tscn::PackedScene::5525274870104679383::1720029114::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
 Practice.tscn::PackedScene::8267795897678814619::1720029114::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
 Review.tscn::PackedScene::8765585163867714507::1720029114::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
-StudyOptions.tscn::PackedScene::525868338424225338::1720029114::0::1::::<><>::res://Menus/LRTP/Scripts/StudyOptions.gd<>uid://cq4l0dw5rshi5::::res://Games/Sprites/AGL_buttons.png
+StudyOptions.tscn::PackedScene::525868338424225338::1720029189::0::1::::<><>::res://Menus/LRTP/Scripts/StudyOptions.gd<>uid://cq4l0dw5rshi5::::res://Games/Sprites/AGL_buttons.png
 Test.tscn::PackedScene::2142491829662422082::1720029114::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
 ::res://Menus/LRTP/Scripts/::1720029114
 LRTP.gd::GDScript::-1::1720029114::0::1::::<>Node2D<>::
