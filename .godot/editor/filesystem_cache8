@@ -1,40 +1,46 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720373739
-::res://Autoload/::1720373677
-Global.gd::GDScript::-1::1720373677::0::1::::<>Node<>::
-::res://Fares' Assets/::1720373677
-alif-removebg-preview.png::CompressedTexture2D::8010292514897277872::1720373677::1720373677::1::::<><>::
-Baa.png::CompressedTexture2D::3419037916089959827::1720373677::1720373677::1::::<><>::
-background1blue.png::CompressedTexture2D::7435523026692129246::1720373677::1720373677::1::::<><>::
-background1green.png::CompressedTexture2D::4755622837878975499::1720373677::1720373677::1::::<><>::
-Btn.tres::Theme::8765178755434543972::1720373677::0::1::::<><>::uid://c6up6xo3e387t::::res://Fares' Assets/GUI.png
-GUI.png::CompressedTexture2D::6990950420691942391::1720373677::1720373677::1::::<><>::
-image-removebg-preview.png::CompressedTexture2D::5155404626752598906::1720373677::1720373677::1::::<><>::
-islamic-abstract-background-pattern-design_114335-88.png::CompressedTexture2D::4830157076847856991::1720373677::1720373677::1::::<><>::
-::res://Fares' Scenes/::1720373677
-Alif.gd::GDScript::-1::1720373677::0::1::::<>Node2D<>::
-Alif.tscn::PackedScene::1875022719532002643::1720373677::0::1::::<><>::res://Fares' Scenes/Alif.gd<>uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
-game.tscn::PackedScene::6931068428251869146::1720373677::0::1::::<><>::res://Fares' Scenes/main.gd<>uid://ca208mpn50omh::::res://Fares' Assets/islamic-abstract-background-pattern-design_114335-88.png
-Letter.tscn::PackedScene::999217241184319573::1720373677::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png<>res://Fares' Scenes/TrueLetter.gd
-Letters.tscn::PackedScene::5669456167660468654::1720373677::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>res://Fares' Scenes/TrueLetter.gd<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
-main.gd::GDScript::-1::1720373677::0::1::::<>Node2D<>::
-mainMenu.tscn::PackedScene::507674330026557135::1720373677::0::1::::<><>::res://Menus/Main Menu/mainMenu.gd<>uid://dd628ipveyrfq::::res://Fares' Assets/background1blue.png
-TrueLetter.gd::GDScript::-1::1720373677::0::1::::<>TextureRect<>::
-::res://Games/::1720373677
-::res://Games/Sprites/::1720373677
-AGL_buttons.png::CompressedTexture2D::5956442545172751146::1720373677::1720373677::1::::<><>::
-AGL_default_background.png::CompressedTexture2D::280061700492674543::1720373677::1720373677::1::::<><>::
-::res://Menus/::1720373677
-::res://Menus/Home/::1720373677
-Home.tscn::PackedScene::995955912155867637::1720373677::0::1::::<><>::
-::res://Menus/LRTP/::1720373731
-Learn.tscn::PackedScene::5525274870104679383::1720373677::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
-Practice.tscn::PackedScene::8267795897678814619::1720373677::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
-Review.tscn::PackedScene::8765585163867714507::1720373677::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
-StudyOptions.tscn::PackedScene::525868338424225338::1720373731::0::1::::<><>::res://Menus/LRTP/Scripts/StudyOptions.gd<>uid://cq4l0dw5rshi5::::res://Games/Sprites/AGL_buttons.png
-Test.tscn::PackedScene::2142491829662422082::1720373677::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
-::res://Menus/LRTP/Scripts/::1720373677
-LRTP.gd::GDScript::-1::1720373677::0::1::::<>Node2D<>::
-StudyOptions.gd::GDScript::-1::1720373677::0::1::::<>VBoxContainer<>::
-::res://Menus/Main Menu/::1720373677
-mainMenu.gd::GDScript::-1::1720373677::0::1::::<>Control<>::
+::res://::1723206247
+README.md::TextFile::-1::1723206149::0::1::::<><>::
+::res://Autoload/::1723206977
+Global.gd::GDScript::-1::1723206977::0::1::::<>Node<>::
+::res://Fares' Assets/::1723206149
+alif-removebg-preview.png::CompressedTexture2D::8010292514897277872::1723206149::1723206149::1::::<><>::
+Baa.png::CompressedTexture2D::3419037916089959827::1723206149::1723206149::1::::<><>::
+background1blue.png::CompressedTexture2D::7435523026692129246::1723206149::1723206149::1::::<><>::
+background1green.png::CompressedTexture2D::4755622837878975499::1723206149::1723206149::1::::<><>::
+Btn.tres::Theme::8765178755434543972::1723206149::0::1::::<><>::uid://c6up6xo3e387t::::res://Fares' Assets/GUI.png
+GUI.png::CompressedTexture2D::6990950420691942391::1723206149::1723206149::1::::<><>::
+image-removebg-preview.png::CompressedTexture2D::5155404626752598906::1723206149::1723206149::1::::<><>::
+islamic-abstract-background-pattern-design_114335-88.png::CompressedTexture2D::4830157076847856991::1723206149::1723206149::1::::<><>::
+::res://Fares' Scenes/::1723206149
+Alif.gd::GDScript::-1::1723206149::0::1::::<>Node2D<>::
+Alif.tscn::PackedScene::1875022719532002643::1723206149::0::1::::<><>::res://Fares' Scenes/Alif.gd<>uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
+game.tscn::PackedScene::6931068428251869146::1723206149::0::1::::<><>::res://Fares' Scenes/main.gd<>uid://ca208mpn50omh::::res://Fares' Assets/islamic-abstract-background-pattern-design_114335-88.png
+Letter.tscn::PackedScene::999217241184319573::1723206149::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png<>res://Fares' Scenes/TrueLetter.gd
+Letters.tscn::PackedScene::5669456167660468654::1723206149::0::1::::<><>::uid://b80wob2yagv3p::::res://Fares' Assets/background1green.png<>res://Fares' Scenes/TrueLetter.gd<>uid://dmeil2uj1bofg::::res://Fares' Assets/alif-removebg-preview.png
+main.gd::GDScript::-1::1723206149::0::1::::<>Node2D<>::
+mainMenu.tscn::PackedScene::507674330026557135::1723206149::0::1::::<><>::res://Menus/Main Menu/mainMenu.gd<>uid://dd628ipveyrfq::::res://Fares' Assets/background1blue.png
+TrueLetter.gd::GDScript::-1::1723206149::0::1::::<>TextureRect<>::
+::res://Games/::1723206149
+::res://Games/Sprites/::1723206149
+AGL_buttons.png::CompressedTexture2D::5956442545172751146::1723206149::1723206149::1::::<><>::
+AGL_default_background.png::CompressedTexture2D::280061700492674543::1723206149::1723206149::1::::<><>::
+::res://Hikmats stuff/::1723206227
+control.tscn::PackedScene::2071891246437968318::1723206227::0::1::::<><>::
+::res://Menus/::1723206557
+::res://Menus/Home/::1723206149
+Home.tscn::PackedScene::995955912155867637::1723206149::0::1::::<><>::
+::res://Menus/LRTP/::1723207255
+Learn.tscn::PackedScene::5525274870104679383::1723206149::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
+Practice.tscn::PackedScene::8267795897678814619::1723206149::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
+Review.tscn::PackedScene::8765585163867714507::1723206149::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
+StudyOptions.tscn::PackedScene::525868338424225338::1723207262::0::1::::<><>::res://Menus/LRTP/Scripts/StudyOptions.gd<>uid://cq4l0dw5rshi5::::res://Games/Sprites/AGL_buttons.png
+Test.tscn::PackedScene::2142491829662422082::1723206149::0::1::::<><>::res://Menus/LRTP/Scripts/LRTP.gd
+::res://Menus/LRTP/Scripts/::1723206964
+LRTP.gd::GDScript::-1::1723206149::0::1::::<>Node2D<>::
+StudyOptions.gd::GDScript::-1::1723206964::0::1::::<>VBoxContainer<>::
+::res://Menus/Main Menu/::1723206149
+mainMenu.gd::GDScript::-1::1723206149::0::1::::<>Control<>::
+::res://Menus/SkillLevel/::1723207255
+SkillLevel.gd::GDScript::-1::1723207285::0::1::::<>Node2D<>::
+SkillLevel.tscn::PackedScene::4245889769509314572::1723207285::0::1::::<><>::res://Menus/SkillLevel/SkillLevel.gd

@@ -1,0 +1,61 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1q0gi5xc5uy3"]
+
+[ext_resource type="Script" path="res://Menus/LRTP/Scripts/SkillLevel.gd" id="1_u2hb8"]
+
+[node name="SkillLevel" type="Node2D"]
+position = Vector2(316, 189)
+script = ExtResource("1_u2hb8")
+
+[node name="RichTextLabel" type="Label" parent="."]
+offset_left = -190.0
+offset_top = -171.0
+offset_right = 206.0
+offset_bottom = -148.0
+text = "You will be able to change this later on in settings :)"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -111.5
+offset_top = -143.0
+offset_right = 111.5
+offset_bottom = 143.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="btn_beginner" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Beginner 
+(Zero knowledge)"
+
+[node name="btn_rookie" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Rookie
+(Some knowledge)"
+
+[node name="btn_intermediate" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Intermediate
+(Good knowledge)"
+
+[node name="btn_advanced" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Advanced
+(Conversational knowledge)"
+
+[node name="btn_fluent" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Fluent
+(Why are you playing this)"
+
+[connection signal="pressed" from="VBoxContainer/btn_beginner" to="." method="_on_btn_beginner_pressed"]
+[connection signal="pressed" from="VBoxContainer/btn_rookie" to="." method="_on_btn_rookie_pressed"]
+[connection signal="pressed" from="VBoxContainer/btn_intermediate" to="." method="_on_btn_intermediate_pressed"]
+[connection signal="pressed" from="VBoxContainer/btn_advanced" to="." method="_on_btn_advanced_pressed"]
+[connection signal="pressed" from="VBoxContainer/btn_fluent" to="." method="_on_btn_fluent_pressed"]

@@ -1,2 +1,7 @@
 res://Menus/LRTP/StudyOptions.tscn
 res://Hikmats stuff/control.tscn
+res://Menus/SkillLevel/SkillLevel.tscn
+res://Autoload/Global.gd
+res://Menus/LRTP/Scripts/StudyOptions.gd
+res://Menus/SkillLevel/SkillLevel.gd
+res://Menus/LRTP/Scripts/SkillLevel.gd
