@@ -1,0 +1,114 @@
+[gd_scene load_steps=10 format=3 uid="uid://bh6y60frgqft8"]
+
+[ext_resource type="Texture2D" uid="uid://fkgmlpklsiak" path="res://Spirtes/UI/UI_mainmenu.png" id="1_cs24o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vgj5"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(12, 6, 587, 206)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drdia"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(11, 215, 587, 206)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t0vky"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(11, 425, 587, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0excf"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(11, 471, 587, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmg67"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(11, 519, 587, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_57kal"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(11, 565, 587, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpfaq"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(614, 7, 587, 141)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uv12g"]
+atlas = ExtResource("1_cs24o")
+region = Rect2(614, 159, 587, 141)
+
+[node name="ColorRect" type="ColorRect"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -540.0
+offset_right = 960.0
+offset_bottom = 540.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+color = Color(0.0784314, 0.231373, 0.47451, 1)
+
+[node name="Learn" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -293.5
+offset_top = -340.0
+offset_right = 293.5
+offset_bottom = -134.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = SubResource("AtlasTexture_1vgj5")
+texture_hover = SubResource("AtlasTexture_drdia")
+
+[node name="Review" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -293.5
+offset_top = -40.0
+offset_right = 293.5
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = SubResource("AtlasTexture_t0vky")
+texture_hover = SubResource("AtlasTexture_0excf")
+
+[node name="Test" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -293.5
+offset_top = 85.0
+offset_right = 293.5
+offset_bottom = 125.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = SubResource("AtlasTexture_tmg67")
+texture_hover = SubResource("AtlasTexture_57kal")
+
+[node name="Practice" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 312.0
+offset_top = -315.0
+offset_right = 899.0
+offset_bottom = -174.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = SubResource("AtlasTexture_qpfaq")
+texture_hover = SubResource("AtlasTexture_uv12g")
