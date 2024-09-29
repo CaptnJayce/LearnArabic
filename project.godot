@@ -17,9 +17,10 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+SaveLoad="*res://Globals/SaveLoad.gd"
+Global="*res://Globals/Global.gd"
 Signals="*res://Globals/Signals.gd"
 AudioManager="*res://Sounds/AudioManager.tscn"
-Global="*res://Globals/Global.gd"
 
 [display]
 

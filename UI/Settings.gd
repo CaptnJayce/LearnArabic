@@ -8,7 +8,7 @@ func _ready() -> void:
 
 func _process(_delta) -> void:
 	Global.musicVal = h_slider.value
-	h_slider.value = Global.musicVal
 
 func _on_button_pressed() -> void:
 	AudioManager.playMusic()
+	SaveLoad.save_game()

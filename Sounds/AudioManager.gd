@@ -10,8 +10,9 @@ func playClick():
 	clickSound.play()
 
 func playMusic():
-	musicTest.play()
 	if Global.musicVal == null:
-		musicTest.volume_db = -20
+		musicTest.volume_db = -10
 	else:
 		musicTest.volume_db = Global.musicVal
+	print(Global.musicVal)
+	musicTest.play()
