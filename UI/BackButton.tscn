@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://brrsdfgy1ci6b"]
+
+[ext_resource type="Script" path="res://UI/BackButton.gd" id="1_sbyui"]
+
+[node name="BackButton" type="Node2D"]
+script = ExtResource("1_sbyui")
+
+[node name="TextureButton" type="Button" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+text = "Go Back"
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

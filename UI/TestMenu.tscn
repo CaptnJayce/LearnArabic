@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://drdv53khnet8w"]
+
+[ext_resource type="PackedScene" uid="uid://brrsdfgy1ci6b" path="res://UI/BackButton.tscn" id="1_cbcoi"]
+
+[node name="TestMenu" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.591332, 0.590453, 1.15514e-06, 1)
+
+[node name="BackButton" parent="." instance=ExtResource("1_cbcoi")]

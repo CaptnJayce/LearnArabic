@@ -1,6 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://bh6y60frgqft8"]
+[gd_scene load_steps=12 format=3 uid="uid://bh6y60frgqft8"]
 
+[ext_resource type="Script" path="res://UI/MainMenu.gd" id="1_04pwu"]
 [ext_resource type="Texture2D" uid="uid://fkgmlpklsiak" path="res://Spirtes/UI/UI_mainmenu.png" id="1_cs24o"]
+[ext_resource type="PackedScene" uid="uid://sdy3bka8soox" path="res://Sounds/AudioManager.tscn" id="4_goou2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1vgj5"]
 atlas = ExtResource("1_cs24o")
@@ -49,6 +51,7 @@ grow_vertical = 2
 size_flags_horizontal = 6
 size_flags_vertical = 4
 color = Color(0.0784314, 0.231373, 0.47451, 1)
+script = ExtResource("1_04pwu")
 
 [node name="Learn" type="TextureButton" parent="."]
 layout_mode = 1
@@ -112,3 +115,10 @@ grow_horizontal = 2
 grow_vertical = 2
 texture_normal = SubResource("AtlasTexture_qpfaq")
 texture_hover = SubResource("AtlasTexture_uv12g")
+
+[node name="AudioStreamPlayer" parent="." instance=ExtResource("4_goou2")]
+
+[connection signal="pressed" from="Learn" to="." method="_on_learn_pressed"]
+[connection signal="pressed" from="Review" to="." method="_on_review_pressed"]
+[connection signal="pressed" from="Test" to="." method="_on_test_pressed"]
+[connection signal="pressed" from="Practice" to="." method="_on_practice_pressed"]
