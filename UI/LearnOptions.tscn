@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=3 uid="uid://bch3iuncdi3bj"]
+
+[ext_resource type="Script" path="res://UI/LearnOptions.gd" id="1_b3jvt"]
+
+[node name="LearnOptions" type="ColorRect"]
+offset_right = 800.0
+offset_bottom = 600.0
+script = ExtResource("1_b3jvt")
+
+[node name="RichTextLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -114.5
+offset_right = 114.5
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "What would you like to learn?"
+
+[node name="Words" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -29.0
+offset_top = -15.5
+offset_right = 29.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Words"
+
+[node name="Letters" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -15.5
+offset_right = 63.0
+offset_bottom = 15.5
+grow_vertical = 2
+text = "Letters"
+
+[node name="Numbers" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -80.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Numbers"
+
+[connection signal="pressed" from="Words" to="." method="_on_words_pressed"]
+[connection signal="pressed" from="Letters" to="." method="_on_letters_pressed"]
+[connection signal="pressed" from="Numbers" to="." method="_on_numbers_pressed"]
