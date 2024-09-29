@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddwxdjbot5um4"]
+
+[ext_resource type="Script" path="res://UI/Settings.gd" id="1_tjy80"]
+[ext_resource type="PackedScene" uid="uid://brrsdfgy1ci6b" path="res://UI/BackButton.tscn" id="2_y4r8l"]
+
+[node name="Settings" type="Node2D"]
+script = ExtResource("1_tjy80")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.162066, 0.162066, 0.162066, 1)
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 714.0
+offset_top = 457.0
+offset_right = 1156.0
+offset_bottom = 473.0
+min_value = -40.0
+max_value = 0.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 871.0
+offset_top = 429.0
+offset_right = 980.0
+offset_bottom = 452.0
+text = "Music Volume"
+
+[node name="BackButton" parent="." instance=ExtResource("2_y4r8l")]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 886.0
+offset_top = 478.0
+offset_right = 957.0
+offset_bottom = 509.0
+text = "Confirm"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

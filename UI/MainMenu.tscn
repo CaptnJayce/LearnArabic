@@ -118,7 +118,14 @@ texture_hover = SubResource("AtlasTexture_uv12g")
 
 [node name="AudioStreamPlayer" parent="." instance=ExtResource("4_goou2")]
 
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Settings"
+
 [connection signal="pressed" from="Learn" to="." method="_on_learn_pressed"]
 [connection signal="pressed" from="Review" to="." method="_on_review_pressed"]
 [connection signal="pressed" from="Test" to="." method="_on_test_pressed"]
 [connection signal="pressed" from="Practice" to="." method="_on_practice_pressed"]
+[connection signal="pressed" from="Settings" to="." method="_on_settings_pressed"]

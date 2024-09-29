@@ -17,3 +17,7 @@ func _on_test_pressed() -> void:
 func _on_practice_pressed() -> void:
 	AudioManager.playClick()
 	get_tree().change_scene_to_file("res://UI/PracticeMenu.tscn")
+
+func _on_settings_pressed() -> void:
+	AudioManager.playClick()
+	get_tree().change_scene_to_file("res://UI/Settings.tscn")

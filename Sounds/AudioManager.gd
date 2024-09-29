@@ -11,3 +11,7 @@ func playClick():
 
 func playMusic():
 	musicTest.play()
+	if Global.musicVal == null:
+		musicTest.volume_db = -20
+	else:
+		musicTest.volume_db = Global.musicVal
